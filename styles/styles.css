@@ -7,15 +7,18 @@ color: #212121;
 background-color: #f5f5f5;
 
 text-decoration: none;
-font-family: roboto, sans-serif;
+font-family: roboto, arial, sans-serif;
     
 }
 
 
 /* Header */
+.header {
+    background-color: #FFFFFF;
+}
 .logo {
 color: #000000;
-font-family: raleway, sans-serif;
+font-family: raleway, arial, sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
@@ -66,7 +69,13 @@ letter-spacing: 0.03em;
 .nav-contacts a:focus {
     color: var(--brand-color);
 }
-/* h1 */
+.nav-list .studio {
+    color: var(--brand-color);
+}
+.nav-list .portfolio {
+    color: var(--brand-color);
+}
+/* hero */
 .main-title {
     font-size: 44px;
     line-height: 1.36;
@@ -148,7 +157,7 @@ letter-spacing: 0.03em;
 
 }
 .logo-footer {
-    font-family: 'Raleway';
+    font-family: raleway, arial, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -177,3 +186,52 @@ letter-spacing: 0.03em;
 }
 .footer-contacts:focus {
     color: var(--brand-color);}
+
+/* Portfolio page */ 
+/* Buttons */
+.portfolio-button {
+    background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+.portfolio-button:hover {
+    background-color: var(--brand-color);
+    color: #FFFFFF;
+}
+.portfolio-button:focus {
+    background-color: var(--brand-color);
+    color: #FFFFFF;
+}
+.nav-portfolio ul {
+    list-style: none;
+}
+/* Section portfolio */
+.section-portfolio ul {
+    list-style: none;
+}
+.section-portfolio a {
+    text-decoration: none;
+    color: #212121;
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio-list { 
+    background-color: #FFFFFF;
+}
+.portfolio-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
